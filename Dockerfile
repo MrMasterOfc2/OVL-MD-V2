@@ -5,9 +5,9 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/Ainz-devs/OVL-MD-V2.git /ovl_bot
+RUN git clone https://github.com/MrMasterOfc2/OVL-MD-V2.git /OVL-MD-V2
 
-WORKDIR /ovl_bot
+WORKDIR /OVL-MD-V2
 
 RUN npm install
 
